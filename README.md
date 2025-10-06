@@ -3,8 +3,8 @@
 Add to _build.gradle_:
 
 ```
-pdfium = "2.0.0"
-pdf-viewer = "2.0.0"
+pdfium = "2.0.1"
+pdf-viewer = "2.0.1"
 
 pdfium = { group = "com.github.urlaunched-com", name = "pdfium", version.ref = "pdfium" }
 pdf-viewer = { group = "com.github.urlaunched-com", name = "android-pdf-viewer", version.ref = "pdf-viewer" }
