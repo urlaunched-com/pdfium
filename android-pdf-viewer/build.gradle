@@ -18,7 +18,7 @@ ext {
     siteUrl = 'https://github.com/barteksc/AndroidPdfViewer'
     gitUrl = 'https://github.com/barteksc/AndroidPdfViewer.git'
 
-    libraryVersion = '2.0.1'
+    libraryVersion = '2.0.2'
 
     developerId = 'barteksc'
     developerName = 'Bartosz Schiller'
@@ -30,7 +30,7 @@ ext {
 }
 
 group = "com.github.urlaunched-com"
-version = "2.0.1"
+version = "2.0.2"
 
 android {
     namespace 'com.urlaunched.pdfviewer'
@@ -40,7 +40,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 35
         versionCode 1
-        versionName "2.0.1"
+        versionName "2.0.2"
     }
 
     mavenPublishing {
