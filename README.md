@@ -6,8 +6,8 @@ Add to _build.gradle_:
 pdfium = "2.0.2"
 pdf-viewer = "2.0.2"
 
-pdfium = { group = "com.github.urlaunched-com", name = "pdfium", version.ref = "pdfium" }
-pdf-viewer = { group = "com.github.urlaunched-com", name = "android-pdf-viewer", version.ref = "pdf-viewer" }
+pdfium = { group = "com.github.urlaunched-com.pdfium", name = "pdfium", version.ref = "pdfium" }
+pdf-viewer = { group = "com.github.urlaunched-com.pdfium", name = "android-pdf-viewer", version.ref = "pdf-viewer" }
 ```
 
 Library is available in jcenter repository, probably it'll be in Maven Central soon.

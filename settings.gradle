@@ -23,5 +23,6 @@ dependencyResolutionManagement {
     }
 }
 
+rootProject.name = "pdfium"
 include ':android-pdf-viewer'
 include ':pdfium'

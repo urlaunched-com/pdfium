@@ -5,33 +5,6 @@ plugins {
     alias(libs.plugins.mavenPublish)
 }
 
-group = "com.github.urlaunched-com"
-version = "2.0.2"
-
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'pdfium'
-
-    publishedGroupId = 'com.github.barteksc'
-    libraryName = 'PdfiumAndroid'
-    artifact = 'pdfium'
-
-    libraryDescription = 'Library for rendering PDFs on Android\'s Surface or Bitmap'
-
-    siteUrl = 'https://github.com/barteksc/PdfiumAndroid'
-    gitUrl = 'https://github.com/barteksc/PdfiumAndroid.git'
-
-    libraryVersion = '2.0.2'
-
-    developerId = 'barteksc'
-    developerName = 'Bartosz Schiller'
-    developerEmail = 'barteksch@boo.pl'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
 android {
     namespace 'com.shockwave.pdfium'
     compileSdkVersion 35
@@ -39,9 +12,6 @@ android {
     defaultConfig {
         minSdkVersion 26
         targetSdkVersion 35
-        versionCode 202
-        versionName "2.0.2"
-        buildConfigField "String", "VERSION_NAME", "\"${versionName}\""
     }
     buildTypes {
         release {
